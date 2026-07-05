@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.matplotlib/
+
+# Data / runs
+*.sqlite
+artifacts/
+data/eval/*.png
+data/eval/labels.csv
+data/finetune_medgemma_250/images/
+reports/*.csv
+reports/*.md
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+
+# OS
+.DS_Store
+Thumbs.db
